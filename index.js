@@ -6,16 +6,16 @@ const firstUser = {
   gender: "Female",
   age: 17,
   email: "monica@dingdong.com",
-  favouriteColor: new Set(),
+  favoriteColor: new Set(),
   isHavePet: true,
   education: [],
-  favouriteRestaurant: new Set(),
+  favoriteRestaurant: new Set(),
 };
 const firstFavouriteColor = "Yellow";
-firstUser.favouriteColor.add(firstFavouriteColor);
-firstUser.favouriteColor.add("Pink");
-firstUser.favouriteColor.add("White");
-firstUser.favouriteColor.add("Purple");
+firstUser.favoriteColor.add(firstFavouriteColor);
+firstUser.favoriteColor.add("Pink");
+firstUser.favoriteColor.add("White");
+firstUser.favoriteColor.add("Purple");
 const firstSD = {
   name: "SD 01",
   city: "Jakarta",
@@ -32,32 +32,32 @@ const firstSMA = {
 };
 firstUser.education.push(firstSD, firstSMP, firstSMA);
 const firstRestaurant = "Bento";
-firstUser.favouriteRestaurant.add(firstRestaurant);
-firstUser.favouriteRestaurant.add("Sushi");
-firstUser.favouriteRestaurant.add("Pancake");
-firstUser.favouriteRestaurant.add("Eggy");
-firstUser.favouriteRestaurant.add("Tempura");
-firstUser.favouriteRestaurant.add("Bento");
-firstUser.favouriteRestaurant.add("Eggy");
-firstUser.favouriteRestaurant.add("Padang");
-firstUser.favouriteRestaurant.add("Tteok");
-firstUser.favouriteRestaurant.add("Sushi");
-firstUser.favouriteRestaurant.add("Sushi");
+firstUser.favoriteRestaurant.add(firstRestaurant);
+firstUser.favoriteRestaurant.add("Sushi");
+firstUser.favoriteRestaurant.add("Pancake");
+firstUser.favoriteRestaurant.add("Eggy");
+firstUser.favoriteRestaurant.add("Tempura");
+firstUser.favoriteRestaurant.add("Bento");
+firstUser.favoriteRestaurant.add("Eggy");
+firstUser.favoriteRestaurant.add("Padang");
+firstUser.favoriteRestaurant.add("Tteok");
+firstUser.favoriteRestaurant.add("Sushi");
+firstUser.favoriteRestaurant.add("Sushi");
 
 const secondUser = {
   name: "Wendy",
   gender: "Male",
   age: 23,
   email: "wendy@dingdong.com",
-  favouriteColor: new Set(),
+  favoriteColor: new Set(),
   isHavePet: false,
   education: [],
-  favouriteRestaurant: new Set(),
+  favoriteRestaurant: new Set(),
 };
-const secondFavouriteColor = "Blue";
-secondUser.favouriteColor.add(secondFavouriteColor);
-secondUser.favouriteColor.add("Black");
-secondUser.favouriteColor.add("Grey");
+const secondFavoriteColor = "Blue";
+secondUser.favoriteColor.add(secondFavouriteColor);
+secondUser.favoriteColor.add("Black");
+secondUser.favoriteColor.add("Grey");
 const secondSD = {
   name: "SD 02",
   city: "Jakarta",
@@ -79,15 +79,15 @@ const secondUniv = {
 };
 secondUser.education.push(secondSD, secondSMP, secondSMA, secondUniv);
 const secondRestaurant = "Tempura";
-secondUser.favouriteRestaurant.add(secondRestaurant);
-secondUser.favouriteRestaurant.add("Bento");
-secondUser.favouriteRestaurant.add("Sushi");
-secondUser.favouriteRestaurant.add("Pancake");
-secondUser.favouriteRestaurant.add("Padang");
-secondUser.favouriteRestaurant.add("Katsu");
-secondUser.favouriteRestaurant.add("Geprek");
-secondUser.favouriteRestaurant.add("Pancake");
-secondUser.favouriteRestaurant.add("Eggy");
+secondUser.favoriteRestaurant.add(secondRestaurant);
+secondUser.favoriteRestaurant.add("Bento");
+secondUser.favoriteRestaurant.add("Sushi");
+secondUser.favoriteRestaurant.add("Pancake");
+secondUser.favoriteRestaurant.add("Padang");
+secondUser.favoriteRestaurant.add("Katsu");
+secondUser.favoriteRestaurant.add("Geprek");
+secondUser.favoriteRestaurant.add("Pancake");
+secondUser.favoriteRestaurant.add("Eggy");
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
