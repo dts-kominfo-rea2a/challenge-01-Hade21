@@ -55,7 +55,7 @@ const secondUser = {
   favoriteRestaurant: new Set(),
 };
 const secondFavoriteColor = "Blue";
-secondUser.favoriteColor.add(secondFavouriteColor);
+secondUser.favoriteColor.add(secondFavoriteColor);
 secondUser.favoriteColor.add("Black");
 secondUser.favoriteColor.add("Grey");
 const secondSD = {
