@@ -81,6 +81,7 @@ secondUser.education.push(secondSD, secondSMP, secondSMA, secondUniv);
 const secondRestaurant = "Tempura";
 secondUser.favouriteRestaurant.add(secondRestaurant);
 secondUser.favouriteRestaurant.add("Bento");
+secondUser.favouriteRestaurant.add("Sushi");
 secondUser.favouriteRestaurant.add("Pancake");
 secondUser.favouriteRestaurant.add("Padang");
 secondUser.favouriteRestaurant.add("Katsu");
