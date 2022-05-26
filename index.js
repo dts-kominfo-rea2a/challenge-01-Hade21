@@ -8,11 +8,11 @@ firstUser.age = 17;
 firstUser.email = "monica@dingdong.com";
 firstUser.isHavePet = true;
 
-const firstFavoriteColor = new Set();
-firstFavoriteColor.add("Yellow");
-firstFavoriteColor.add("Pink");
-firstFavoriteColor.add("White");
-firstFavoriteColor.add("Purple");
+const firstFavoriteColor = [];
+firstFavoriteColor.push("Yellow");
+firstFavoriteColor.push("Pink");
+firstFavoriteColor.push("White");
+firstFavoriteColor.push("Purple");
 firstUser.favoriteColor = firstFavoriteColor;
 
 const firstEducation = [];
@@ -33,31 +33,31 @@ const firstSMA = {
 firstEducation.push(firstSD, firstSMP, firstSMA);
 firstUser.education = firstEducation;
 
-const firstRestaurant = new Set();
-firstRestaurant.add("Bento");
-firstRestaurant.add("Sushi");
-firstRestaurant.add("Pancake");
-firstRestaurant.add("Eggy");
-firstRestaurant.add("Tempura");
-firstRestaurant.add("Bento");
-firstRestaurant.add("Eggy");
-firstRestaurant.add("Padang");
-firstRestaurant.add("Tteok");
-firstRestaurant.add("Sushi");
-firstRestaurant.add("Sushi");
+const firstRestaurant = [];
+firstRestaurant.push("Bento");
+firstRestaurant.push("Sushi");
+firstRestaurant.push("Pancake");
+firstRestaurant.push("Eggy");
+firstRestaurant.push("Tempura");
+firstRestaurant.push("Bento");
+firstRestaurant.push("Eggy");
+firstRestaurant.push("Padang");
+firstRestaurant.push("Tteok");
+firstRestaurant.push("Sushi");
+firstRestaurant.push("Sushi");
 firstUser.favoriteRestaurant = firstRestaurant;
 
 const secondUser = {};
-secondUser.name = "Weendy";
+secondUser.name = "Wendy";
 secondUser.gender = "Male";
 secondUser.age = 23;
 secondUser.email = "wendy@dingdong.com";
 secondUser.isHavePet = true;
 
-const secondFavoriteColor = new Set();
-secondFavoriteColor.add("Blue");
-secondFavoriteColor.add("Black");
-secondFavoriteColor.add("Grey");
+const secondFavoriteColor = [];
+secondFavoriteColor.push("Blue");
+secondFavoriteColor.push("Black");
+secondFavoriteColor.push("Grey");
 secondUser.favoriteColor = secondFavoriteColor;
 
 const secondEducation = [];
@@ -82,16 +82,16 @@ const secondUniv = {
 };
 secondEducation.push(secondSD, secondSMP, secondSMA, secondUniv);
 
-const secondRestaurant = new Set();
-secondRestaurant.add("Tempura");
-secondRestaurant.add("Bento");
-secondRestaurant.add("Sushi");
-secondRestaurant.add("Pancake");
-secondRestaurant.add("Padang");
-secondRestaurant.add("Katsu");
-secondRestaurant.add("Geprek");
-secondRestaurant.add("Pancake");
-secondRestaurant.add("Eggy");
+const secondRestaurant = [];
+secondRestaurant.push("Tempura");
+secondRestaurant.push("Bento");
+secondRestaurant.push("Sushi");
+secondRestaurant.push("Pancake");
+secondRestaurant.push("Padang");
+secondRestaurant.push("Katsu");
+secondRestaurant.push("Geprek");
+secondRestaurant.push("Pancake");
+secondRestaurant.push("Eggy");
 secondUser.favoriteRestaurant = secondRestaurant;
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
