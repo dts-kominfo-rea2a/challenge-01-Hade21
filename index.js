@@ -48,10 +48,10 @@ firstRestaurant.add("Sushi");
 firstUser.favoriteRestaurant = firstRestaurant;
 
 const secondUser = {};
-secondUser.name = "Monica";
-secondUser.gender = "Female";
-secondUser.age = 17;
-secondUser.email = "monica@dingdong.com";
+secondUser.name = "Weendy";
+secondUser.gender = "Male";
+secondUser.age = 23;
+secondUser.email = "wendy@dingdong.com";
 secondUser.isHavePet = true;
 
 const secondFavoriteColor = new Set();
