@@ -13,7 +13,7 @@ firstFavoriteColor.add("Yellow");
 firstFavoriteColor.add("Pink");
 firstFavoriteColor.add("White");
 firstFavoriteColor.add("Purple");
-firstUser.favoriteColor = firstFavoriteColor;
+firstUser.favoriteColor = Array.from(firstFavoriteColor);
 
 const firstEducation = [];
 const firstSD = {
@@ -45,7 +45,7 @@ firstRestaurant.add("Padang");
 firstRestaurant.add("Tteok");
 firstRestaurant.add("Sushi");
 firstRestaurant.add("Sushi");
-firstUser.favoriteRestaurant = firstRestaurant;
+firstUser.favoriteRestaurant = Array.from(firstRestaurant);
 
 const secondUser = {};
 secondUser.name = "Wendy";
@@ -58,7 +58,7 @@ const secondFavoriteColor = new Set();
 secondFavoriteColor.add("Blue");
 secondFavoriteColor.add("Black");
 secondFavoriteColor.add("Grey");
-secondUser.favoriteColor = secondFavoriteColor;
+secondUser.favoriteColor = Array.from(secondFavoriteColor);
 
 const secondEducation = [];
 const secondSD = {
@@ -93,7 +93,7 @@ secondRestaurant.add("Katsu");
 secondRestaurant.add("Geprek");
 secondRestaurant.add("Pancake");
 secondRestaurant.add("Eggy");
-secondUser.favoriteRestaurant = secondRestaurant;
+secondUser.favoriteRestaurant = Array.from(secondRestaurant);
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
