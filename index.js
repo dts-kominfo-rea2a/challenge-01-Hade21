@@ -30,7 +30,7 @@ const firstSMA = {
   name: "SMA 03",
   city: "Tangerang",
 };
-education.push(firstSD, firstSMP, firstSMA);
+firstEducation.push(firstSD, firstSMP, firstSMA);
 firstUser.education = firstEducation;
 
 const firstRestaurant = new Set();
