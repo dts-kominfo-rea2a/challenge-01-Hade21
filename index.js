@@ -1,21 +1,21 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
-const firstUser = {
-  name: "Monica",
-  gender: "Female",
-  age: 17,
-  email: "monica@dingdong.com",
-  favoriteColor: new Set(),
-  isHavePet: true,
-  education: [],
-  favoriteRestaurant: new Set(),
-};
-const firstFavouriteColor = "Yellow";
-firstUser.favoriteColor.add(firstFavouriteColor);
-firstUser.favoriteColor.add("Pink");
-firstUser.favoriteColor.add("White");
-firstUser.favoriteColor.add("Purple");
+const firstUser = {};
+firstUser.name = "Monica";
+firstUser.gender = "Female";
+firstUser.age = 17;
+firstUser.email = "monica@dingdong.com";
+firstUser.isHavePet = true;
+
+const firstFavoriteColor = new Set();
+firstFavoriteColor.add("Yellow");
+firstFavoriteColor.add("Pink");
+firstFavoriteColor.add("White");
+firstFavoriteColor.add("Purple");
+firstUser.favoriteColor = firstFavoriteColor;
+
+const firstEducation = [];
 const firstSD = {
   name: "SD 01",
   city: "Jakarta",
@@ -30,34 +30,37 @@ const firstSMA = {
   name: "SMA 03",
   city: "Tangerang",
 };
-firstUser.education.push(firstSD, firstSMP, firstSMA);
-const firstRestaurant = "Bento";
-firstUser.favoriteRestaurant.add(firstRestaurant);
-firstUser.favoriteRestaurant.add("Sushi");
-firstUser.favoriteRestaurant.add("Pancake");
-firstUser.favoriteRestaurant.add("Eggy");
-firstUser.favoriteRestaurant.add("Tempura");
-firstUser.favoriteRestaurant.add("Bento");
-firstUser.favoriteRestaurant.add("Eggy");
-firstUser.favoriteRestaurant.add("Padang");
-firstUser.favoriteRestaurant.add("Tteok");
-firstUser.favoriteRestaurant.add("Sushi");
-firstUser.favoriteRestaurant.add("Sushi");
+education.push(firstSD, firstSMP, firstSMA);
+firstUser.education = firstEducation;
 
-const secondUser = {
-  name: "Wendy",
-  gender: "Male",
-  age: 23,
-  email: "wendy@dingdong.com",
-  favoriteColor: new Set(),
-  isHavePet: false,
-  education: [],
-  favoriteRestaurant: new Set(),
-};
-const secondFavoriteColor = "Blue";
-secondUser.favoriteColor.add(secondFavoriteColor);
-secondUser.favoriteColor.add("Black");
-secondUser.favoriteColor.add("Grey");
+const firstRestaurant = new Set();
+firstRestaurant.add("Bento");
+firstRestaurant.add("Sushi");
+firstRestaurant.add("Pancake");
+firstRestaurant.add("Eggy");
+firstRestaurant.add("Tempura");
+firstRestaurant.add("Bento");
+firstRestaurant.add("Eggy");
+firstRestaurant.add("Padang");
+firstRestaurant.add("Tteok");
+firstRestaurant.add("Sushi");
+firstRestaurant.add("Sushi");
+firstUser.favoriteRestaurant = firstRestaurant;
+
+const secondUser = {};
+secondUser.name = "Monica";
+secondUser.gender = "Female";
+secondUser.age = 17;
+secondUser.email = "monica@dingdong.com";
+secondUser.isHavePet = true;
+
+const secondFavoriteColor = new Set();
+secondFavoriteColor.add("Blue");
+secondFavoriteColor.add("Black");
+secondFavoriteColor.add("Grey");
+secondUser.favoriteColor = secondFavoriteColor;
+
+const secondEducation = [];
 const secondSD = {
   name: "SD 02",
   city: "Jakarta",
@@ -77,17 +80,19 @@ const secondUniv = {
   name: "Universitas Maju",
   city: "Tangerang",
 };
-secondUser.education.push(secondSD, secondSMP, secondSMA, secondUniv);
-const secondRestaurant = "Tempura";
-secondUser.favoriteRestaurant.add(secondRestaurant);
-secondUser.favoriteRestaurant.add("Bento");
-secondUser.favoriteRestaurant.add("Sushi");
-secondUser.favoriteRestaurant.add("Pancake");
-secondUser.favoriteRestaurant.add("Padang");
-secondUser.favoriteRestaurant.add("Katsu");
-secondUser.favoriteRestaurant.add("Geprek");
-secondUser.favoriteRestaurant.add("Pancake");
-secondUser.favoriteRestaurant.add("Eggy");
+secondEducation.push(secondSD, secondSMP, secondSMA, secondUniv);
+
+const secondRestaurant = new Set();
+secondRestaurant.add("Tempura");
+secondRestaurant.add("Bento");
+secondRestaurant.add("Sushi");
+secondRestaurant.add("Pancake");
+secondRestaurant.add("Padang");
+secondRestaurant.add("Katsu");
+secondRestaurant.add("Geprek");
+secondRestaurant.add("Pancake");
+secondRestaurant.add("Eggy");
+secondUser.favoriteRestaurant = secondRestaurant;
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
